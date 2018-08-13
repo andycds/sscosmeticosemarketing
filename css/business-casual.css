@@ -177,6 +177,13 @@ p {
   }
 }
 
+@media (max-height: 991px) {
+  .product-item-img {
+    max-width: 40vw;
+    max-height: 40vh;
+  }
+}
+
 @media (min-width: 992px) {
   .product-item .product-item-title {
     position: relative;
